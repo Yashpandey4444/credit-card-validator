@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Credit Card Validator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>💳 Credit Card Validator</h1>
+        <p class="subtitle">Check if your card number is valid</p>
+        
+        <input
+            id="card-number"
+            type="text"
+            placeholder="Enter card number (e.g., 4111 1111 1111 1111)"
+            maxlength="23">
+        
+        <button id="validate-btn">
+            Validate Card
+        </button>
+        
+        <div id="brand-display"></div>
+        <p id="result">
+            Result will appear here
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
