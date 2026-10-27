@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from backend.services.luhn import luhn_check
-from backend.services.card_brand import detect_card_brand  # Add this import
+from services.luhn import luhn_check
+from services.card_brand import detect_card_brand  # Add this import
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
